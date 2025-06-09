@@ -1,0 +1,6 @@
+{
+  "name": "Murali Master Mind AI",
+  "description": "An application to transform raw ideas into powerful, precision-engineered AI prompts using Google's Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
