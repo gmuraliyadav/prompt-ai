@@ -1,9 +1,8 @@
-
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 import { GEMINI_MODEL_NAME, API_KEY_ERROR_MESSAGE } from '../constants';
 
 const getApiKey = (): string => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = 'AIzaSyCD07DQcU-YmI0YMu9O6kqNFjm5fEyvtHY';
   if (!apiKey) {
     console.error(API_KEY_ERROR_MESSAGE);
     throw new Error(API_KEY_ERROR_MESSAGE);
